@@ -11,11 +11,14 @@
         <h1><%= htmlWebpackPlugin.options.title %></h1>
         <h2>HTML Syntax Highlighting Example</h2>
         <p>
-          <pre><code class="language-html">&lt;h1&gt;HTML Example!&lt;/h1&gt;
-&lt;p class="content"&gt;This is an example HTML code snippet.&lt;p&gt;
-&lt;script&gt;
-console.log("Hello, world!");
-&lt;/script&gt;</code></pre>
+          <pre><code class="language-tt2 line-numbers">&lt;h1&gt;HTML Example!&lt;/h1&gt;
+&lt;p class="content"&gt;
+[% FOREACH post IN posts %]
+  &lt;h2&gt;[% post.title | html %]&lt;/h2&gt;
+  &lt;p class="excerpt"&gt;[% post.excerpt | html %]&lt;/p&gt;
+[% END %]
+&lt;p&gt;
+</code></pre>
         </p>
       </div>
 

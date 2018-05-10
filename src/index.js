@@ -1,4 +1,4 @@
-require('bootstrap/dist/css/bootstrap.css');
+require('./scss/bootstrap.scss');
 
 require('./css/prism.css');
 require('prismjs');

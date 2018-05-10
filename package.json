@@ -7,8 +7,8 @@
   "author": "Guido Flohr <guido.flohr@cantanea.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --progress --colors",
-    "start": "webpack-dev-server --progress --colors --open"
+    "build": "webpack --mode=production --progress --colors",
+    "start": "webpack-dev-server --mode=development --progress --colors --open"
   },
   "dependencies": {
     "clean-webpack-plugin": "^0.1.19",

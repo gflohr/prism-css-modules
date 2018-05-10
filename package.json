@@ -1,0 +1,9 @@
+{
+  "name": "prism-css-modules",
+  "version": "1.0.0",
+  "description": "Show how to use PrismJS with css-modules",
+  "main": "index.js",
+  "repository": "https://github.com/gflohr/prism-css-modules",
+  "author": "Guido Flohr <guido.flohr@cantanea.com>",
+  "license": "MIT"
+}

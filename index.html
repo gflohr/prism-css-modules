@@ -5,7 +5,21 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <pre><code class="language-html">&lt;h1&gt;HTML Example!&lt;/h1&gt;
-&lt;p class="content"&gt;This is an example HTML code snippet.&lt;p&gt;</code></pre>
+    <main role="main" class="container">
+
+      <div>
+        <h1><%= htmlWebpackPlugin.options.title %></h1>
+        <h2>HTML Syntax Highlighting Example</h2>
+        <p>
+          <pre><code class="language-html">&lt;h1&gt;HTML Example!&lt;/h1&gt;
+&lt;p class="content"&gt;This is an example HTML code snippet.&lt;p&gt;
+&lt;script&gt;
+console.log("Hello, world!");
+&lt;/script&gt;</code></pre>
+        </p>
+      </div>
+
+    </main><!-- /.container -->
+
   </body>
 </html>

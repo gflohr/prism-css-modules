@@ -7,12 +7,15 @@
   "author": "Guido Flohr <guido.flohr@cantanea.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode=production --progress --colors",
-    "start": "webpack-dev-server --mode=development --progress --colors --open"
+    "build": "webpack --mode production --progress --colors",
+    "start": "webpack-dev-server --mode development --progress --colors --open"
   },
   "dependencies": {
+    "bootstrap": "^4.1.1",
     "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
     "webpack": "^4.8.1",
     "webpack-cli": "^2.1.3",
     "webpack-dev-server": "^3.1.4"

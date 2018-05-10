@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/gflohr/prism-css-modules",
   "author": "Guido Flohr <guido.flohr@cantanea.com>",
-  "license": "MIT",
+  "license": "WTFPL",
   "scripts": {
     "build": "webpack --mode production --progress --colors",
     "start": "webpack-dev-server --mode development --progress --colors --open"
